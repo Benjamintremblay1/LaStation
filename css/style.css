@@ -12,3 +12,117 @@ html {
 
 /* ÉLÉMENTS */
 
+
+body{
+
+padding: 0;
+margin: 0;
+
+font-family: "Roboto", sans-serif;
+font-size: 18px;
+}
+
+a{
+
+text-decoration: none;
+color: #000000;
+
+}
+
+h1{
+
+ font-family: "Dosis", sans-serif;
+ font-size: 50px;
+ font-weight: bold;
+
+
+text-align: center;
+}
+
+h2{
+
+font-family: "Dosis", sans-serif;
+font-size: 36px;
+font-weight: bold;
+
+}
+
+h3{
+
+font-family: "Dosis", sans-serif;
+font-size: 24px;
+font-weight: bold;
+
+}
+
+/* COMPONENTS */
+
+.wrapper{
+
+max-width: 1280px;
+margin: 0 auto;
+
+}
+
+.header{
+
+background-color: #ffffff;
+
+color: #000000;
+
+padding-top: 16px;
+padding-bottom: 16px;
+}
+
+.header .wrapper{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.logo{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+gap:30px;
+
+font-family: "Dosis", sans-serif;
+font-size: 40px;
+font-weight: bold;
+
+color: #000000;
+outline: none;
+
+}
+
+.menu{
+
+display: flex;
+gap: 30px;
+list-style-type: none;
+outline: none;
+color: #000000;
+}
+
+.menu a{
+    padding: 10px;
+}
+
+.menu a:hover{
+
+background-color: #0E5EA1;
+color: #ffffff;
+
+
+}
+
+.hero{
+
+background-image: url(//image/paysage_hero.jpg);
+background-size: cover;
+
+}
