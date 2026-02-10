@@ -122,7 +122,8 @@ color: #ffffff;
 
 .hero{
 
-background-image: url(//image/paysage_hero.jpg);
+background-image: url(../image/paysage_hero.jpg);
 background-size: cover;
+height: 450px ;
 
 }
